@@ -3,6 +3,7 @@ function titleCaseEdit(title) {
   var myTitle;
   myTitle= title[0].toUpperCase() +  
   title.slice(1); 
+  return myTitle;
 }
 
 // Do not edit this line;
