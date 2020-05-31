@@ -1,9 +1,9 @@
 function sumOfMinimumAndMaximum(nums) {
   // Insert code here;
-  //set the first num as the min
+  //find the min value
   const min= Math.min(...nums);
   
-  //set the last num as the max
+  //find the max value
   const max= Math.max(...nums);
 
   var sum=min+max;
